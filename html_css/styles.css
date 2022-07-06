@@ -1,0 +1,25 @@
+/* A selector is what is used to target an html element in order to give it styling */
+/* selector types at tages (name of the html tag), id (name pf the id with # in front of it) and classes (name of the class with a period in front of it) */
+
+body {
+    /* padding: 0 25px 0 25px; clockwise: top right bottom left*/
+    /* padding: 0 25px 0; top sides, bottom */
+    padding: 0 25px; /* top & bottom, sides*/
+    /* padding: 25px; all sides*/
+}
+
+.pinkText {
+    background-color: pink;
+}
+
+.fligugigu {
+    width: 100px;
+    height: 183px;
+}
+
+#section-2 h2:nth-child(2) { /* :nth-child(#) lets you choose a spesific child for deep selector. So if there are multiple children you can target a specific child*/
+    background-color: thistle;
+    margin: 0;
+
+
+}

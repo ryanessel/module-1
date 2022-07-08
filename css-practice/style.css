@@ -1,0 +1,56 @@
+body {
+    background-color: thistle;
+    padding: 2.5rem;
+}
+
+/* nav or #topnav or .navigation */
+#topnav {
+    background-color: lightgray;
+    height: 2.5rem;
+    position: fixed;
+    width: 94vw;
+    /* text-align: center; */
+    padding: 25px 40px 0px;
+    top: 0;
+    left: 0;
+    
+}
+
+/* advanced selector; selects a div with the id container */
+/* only use unique ids cause you can use them as anchors.*/
+div#container {
+    padding: 0 14rem;
+    background-image: url("./images/good-breakfast.jpeg");
+    background-position: center;
+    height: 40vw;
+}
+
+#container * {
+    color: white;
+
+}
+
+.navigation span {
+
+    margin: 0 10.9rem;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93vw;
+    padding: 0 3rem; */
+
+}
+
+img {
+    /* image sizing don't modify both width and height; only  change width */
+    width: 16rem;
+
+}
+
+/* hr styling example */
+hr {
+width: 32vw;
+border-color: 6px solid white;
+height: 0.3rem;
+border-style: dotted;
+}
